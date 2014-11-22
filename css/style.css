@@ -1,6 +1,46 @@
-body {font-family: arial; font-size: 13px; margin: 0; padding: 0;}
+html {height: 100%;}
 
-#nav ul{
+body {
+    height: 100%;
+    font-family: arial;
+    font-size: 13px;
+    margin: 0 auto;
+}
+
+#wrap {min-height: 100%;}
+
+#main {
+    overflow: auto;
+    padding-bottom: 41px;
+}
+
+#footer {
+    position: relative;
+    margin-top: -41px;
+    height: 41px;
+    clear: both;
+}
+
+#container {
+    padding-top:112px;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto;
+    background: url("../images/logo.png") no-repeat;
+    background-size: 269px 95px;
+    width: 269px;
+    height: 95px;
+}
+
+#nav {
+    padding: 0 30px 0 30px;
+    display: block;
+    height: 60px;
+}
+
+#nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -11,18 +51,12 @@ body {font-family: arial; font-size: 13px; margin: 0; padding: 0;}
     transform: translateY(-50%);
 }
 
-#nav {
-    padding: 0 30px 0 30px;
-    display: block;
-    height: 60px;
-}
-
-#nav li{
+#nav li {
     float: right;
     width: auto;
 }
 
-a{
+a {
     color: #404040;
     float: right;
     display: block;
@@ -36,14 +70,9 @@ a{
 .navl3{padding-left: 10px;}
 .navl4{padding-left: 10px;}
 
-.logo {
-    background: url("../images/logo.png") no-repeat;
-    background-size: 269px 95px;
-    width: 269px;
-    height: 95px;
-}
-
 .sbox {
+    display: block;
+    margin: 0 auto;
     width: 572px;
 }
 
@@ -52,12 +81,11 @@ a{
     width: 100%;
 }
 
-.gsrch {
+.sbutton {
+    font-size: 0.85em;
+    font-weight: bold;
     margin: 16px 8px;
-}
-
-.glcky {
-    margin: 16px 8px;
+    padding: 6px;
 }
 
 .fbar {
@@ -106,3 +134,21 @@ a{
 
 .fbarr1{padding-left: 10px;}
 .fbarr2{padding-left: 10px;}
+/* old css from scrapped attempt
+
+
+#wrap {min-height: 100%;}
+
+#main {
+    overflow: auto;
+    padding-bottom: 60px;
+}
+
+#footer {
+    position: relative;
+    margin-top: -60px;
+    height: 60px;
+    clear: both;
+}
+
+*/
