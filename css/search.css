@@ -1,0 +1,67 @@
+html {height: 100%;}
+
+body {
+    height: 100%;
+    font-family: arial;
+    font-size: 13px;
+    margin: 0 auto;
+}
+
+#wrap {min-height: 100%;}
+
+#main {
+    overflow: auto;
+    padding-bottom: 67px;
+}
+
+#footer {
+    padding: 18px 0 0 125px;
+    position: relative;
+    margin-top: -86px; /*inverse of footer height + padding + border*/
+    height: 67px;
+    clear: both;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    font-size: .85em;
+}
+#footer a {
+    color: #777777;
+    text-decoration: none;
+}
+#footer a:hover {
+    color: black;
+}
+
+.location {
+    height: 25px;
+}
+.location ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+    float: left;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.location ul li {
+    display: inline;
+}
+
+.botnav {
+    height: 40px;
+}
+.botnav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+    float: left;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.botnav ul li {
+    display: inline;
+    padding-right: 20px;
+}
+
