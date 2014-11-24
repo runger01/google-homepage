@@ -14,14 +14,15 @@ body {
     padding-bottom: 67px;
 }
 
-#header {
-    /*background-color: #e5e5e5;*/
+.header {
+    background-color: #e5e5e5;
     height: 60px;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .logo_contain {
     float: left;
-    width: 117px;
-    height: 100%;
+    padding: 0 25px 0 25px;
 }
 .logo {
     background: url("../images/logo.png") no-repeat;
@@ -31,17 +32,33 @@ body {
     margin: 13px 12px 13px 12px; 
 }
 
-.searchbar {
-    float: left;
-    width: 100px;
-    height: 100%;
-    background-color: blue;
+.search_contain {
+    margin: 15px auto;
 }
-.tools {
+.search_box{
+    float: left;
+    border: solid 1px #c0c0c0;
+    padding: 4px;
+    height: 20px;
+    width: 400px;
+    border-right: none;
+}
+.search_button{
+    float: left;
+    position: relative;
+    color: #fff;
+    background: #4d90fe;
+    border: solid 1px #3079ed;
+    height: 30px;
+    padding: 4px 8px;
+}
+.tools_contain {
+    width: 100;
     float: right;
-    width: 100px;
-    height: 100%;
     background-color: green;
+}
+.h_layout {
+    display: inline-block;
 }
 
 #footer {
