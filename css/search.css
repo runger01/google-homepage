@@ -49,6 +49,8 @@ body {
     color: #fff;
     background: #4d90fe;
     border: solid 1px #3079ed;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
     height: 30px;
     padding: 4px 8px;
 }
