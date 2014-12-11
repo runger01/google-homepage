@@ -10,16 +10,16 @@ html, body {
 .main {
     overflow: auto;
 	padding-bottom: 60px;
-    background: #2d2d2d;
 }  /* must be same height as the footer */
 
 .adbartop {
     height: 60px;
-    margin: 20px;
-    background: purple;
+    margin: 0 20px;
+    background: white;
+    border-bottom: solid 1px #ebebeb;
 }
 .content {
-    margin: 20px;
+    margin: 0 20px;
     background-color: white;
 }
 .results div, p, ul, h1 {
@@ -90,13 +90,12 @@ html, body {
     padding: 4px 8px;
 }
 
-.tools {
+.sign_in {
     float: right;
     color: #fff;
     background: #4d90fe;
     border: solid 1px #3079ed;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
+    border-radius: 2px;
     height: 30px;
     margin: 15px;
     line-height: 30px;
